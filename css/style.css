@@ -1,0 +1,26 @@
+/* Roboto Font Importation Link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Bank Body Style apply */
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --Font Color Styles-- */
+.font-color{
+    color: blueviolet;
+}
+/* Style for buttons */
+.btn-submit{
+    background-image: linear-gradient(45deg, tomato, orange);
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+/* Animation for Button Click */
+.btn-submit:active {
+  box-shadow: 0 5px 15px rgb(173, 173, 173);
+  transform: translateY(4px);
+}
